@@ -105,6 +105,7 @@ class TransactionService:
         
         return {
             'total_invested': total_invested,
+            'current_holdings_value': current_holdings_value,
             'current_value': current_holdings_value,  # FIXED: Changed key name
             'total_sold': total_sold,
             'net_value': net_value,
